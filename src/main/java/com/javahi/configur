@@ -1,0 +1,19 @@
+database:
+
+  driverClass: com.sql.jdbc.Driver
+
+  user: root
+
+  password: 1234
+
+  url: jdbc:mysql://localhost:8081/FiDropwizard
+
+
+server:
+    applicationConnectors:
+        - type: http
+          port: 8080
+          keyStorePath: FiDropwizard.keystore
+          keyStorePassword: p@ssw0rd
+
+
